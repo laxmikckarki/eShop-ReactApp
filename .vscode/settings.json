@@ -1,0 +1,7 @@
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascript react"
+    },
+    "emmet.optimizeStylesheetParsing": false,
+    "git.ignoreLimitWarning": true
+}
