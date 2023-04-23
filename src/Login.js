@@ -15,7 +15,7 @@ function Login() {
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
-        navigate("/");
+        navigate.push("/");
       })
       .catch((error) => alert(error.message));
   };
@@ -27,7 +27,7 @@ function Login() {
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
         if (auth) {
-          navigate("/");
+          navigate.push("/");
         }
       })
       .catch((error) => alert(error.message));

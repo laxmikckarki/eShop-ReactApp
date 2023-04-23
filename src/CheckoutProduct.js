@@ -16,7 +16,7 @@ dispatch ({
            <img src={image} alt='' className='checkoutProduct_image' />
             
             <div className='checkoutProduct_info'>
-                <p>{title}</p>
+                <p className='checkoutProduct_title'>{title}</p>
                 <p className='checkOutProduct_price'>
                     <small>$</small>
                     <strong>{price}</strong>
